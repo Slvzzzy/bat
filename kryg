@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Krug</title>
+  <style>
+    .circle {
+      background: #a6ee92;
+      position: relative;
+      height: 150px;
+      width: 150px;
+      border: 24px solid #237a0f;
+      border-radius: 100px;
+      border-right: 24px solid #73b636;
+      margin: auto;
+    }
+    .text {
+      font-size: 44px;
+      position: relative;
+      right: -40px;
+    }
+      span {
+        font-size: 30px;
+      }
+  </style>
+</head>
+<body>
+<h1 align="center"> Кругляш </h1>
+<div>
+  <div class="circle">
+    <div class="text">
+      <p>75<span><i>%</i></span></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
