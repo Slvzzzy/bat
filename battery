@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Batareika</title>
+    <style>
+.bat1 {
+    background: linear-gradient(to right, red 0%, red 30%, white 30%, white 100% );
+    width: 15%;
+    height: 50px;
+    border:8px solid;
+    margin:auto;
+}
+.bat1::after {
+    content: "";
+    position: relative;
+    width: 5px;
+    height: 16px;
+    background-color: #000000;
+    border:5px solid;
+    margin: 103%;
+    vertical-align: -14px;
+}
+.bat2 {
+    background: linear-gradient(to right, yellow 0%, yellow 60%, white 60%, white 100% );
+    width: 15%;
+    height: 50px;
+    border:8px solid;
+    margin:auto;"
+}
+.bat2::after {
+    content: "";
+    position: relative;
+    width: 5px;
+    height: 16px;
+    background-color: #000000;
+    border:5px solid;
+    margin: 103%;
+    vertical-align: -14px;
+}
+.bat3 {
+    background-color: #19b721;
+    width: 15%;
+    height: 50px;
+    border:8px solid;
+    margin:auto;"
+}
+.bat3::after {
+    content: "";
+    position: relative;
+    width: 5px;
+    height: 16px;
+    background-color: #000000;
+    border:5px solid;
+    margin: 103%;
+    vertical-align: -14px;
+}
+    </style>
+</head>
+<body>
+<h1 align="center"> Батарейка </h1>
+<div>
+    <div class="bat1">
+        </div> <br>
+    <div class="bat2">
+        </div> <br>
+    <div class="bat3">
+        </div>
+</div>
+</body>
+</html>
